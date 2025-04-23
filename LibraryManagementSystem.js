@@ -71,6 +71,23 @@ console.log(`*********Return Status************`);
 harryPotter.returnItem();
 console.log(harryPotter);
 
+let Despicable = new DVD("Despicable 4", '023452', "Chris Renaud", "1:20");
+console.log(`*********Checkout Status************`);
+Despicable.checkOut(); 
+console.log(Despicable);
+
+console.log(`*********Return Status************`);
+Despicable.returnItem();
+console.log(Despicable);
+
+let Discovery = new Magazine("Discover Iceland ", '023452', "Vol-4", "Discovery");
+console.log(`*********Checkout Status************`);
+Discovery.checkOut(); 
+console.log(Discovery);
+
+console.log(`*********Return Status************`);
+Discovery.returnItem();
+console.log(Discovery);
 
 
 
